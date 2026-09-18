@@ -1,0 +1,45 @@
+# Build output
+/build/
+/out/
+/dist/
+
+# Generated root filesystem
+/rootfs/
+
+# Generated images
+*.img
+*.img.xz
+*.img.gz
+*.simg
+
+# Large archives
+*.7z
+*.zip
+*.tar
+*.tar.xz
+*.tar.gz
+
+# Kernel build artifacts
+*.deb
+*.dtb
+*.dtbo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
