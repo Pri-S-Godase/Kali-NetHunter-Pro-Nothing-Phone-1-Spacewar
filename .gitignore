@@ -1,0 +1,56 @@
+# Build output
+build/
+out/
+dist/
+target/
+
+# Android / kernel build output
+*.dtb
+*.dtbo
+*.ko
+*.o
+*.a
+*.cmd
+*.mod
+*.mod.c
+*.order
+modules.order
+
+# Disk images and archives
+*.img
+*.img.xz
+*.img.gz
+*.img.zst
+*.simg
+*.raw
+*.cpio
+*.cpio.gz
+*.tar
+*.tar.xz
+*.zip
+*.7z
+*.deb
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
